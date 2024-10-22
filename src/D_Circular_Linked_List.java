@@ -1,4 +1,4 @@
-public class CircularLL {
+public class D_Circular_Linked_List {
     public static class Node{
         int data;
         Node next;
@@ -9,7 +9,7 @@ public class CircularLL {
     }
 
     public static void main(String[] args) {
-        System.out.println();
+
     }
 
 }

@@ -1,9 +1,9 @@
-public class Circular_queue {
+public class F_Circular_queue {
     public static int[] a;
     public static int size;
     public static int front;
     public static int rear;
-    Circular_queue(int s){
+    F_Circular_queue(int s){
         a = new int[s];
         size = s;
         rear = -1;
@@ -47,7 +47,7 @@ public class Circular_queue {
         return a[front];
     }
     public static void main(String[] args) {
-        Circular_queue c = new Circular_queue(3);
+        F_Circular_queue c = new F_Circular_queue(3);
         c.add(12);
         c.add(13);
         c.add(14);

@@ -1,6 +1,6 @@
 
 
-public class Queues {
+public class E_Queues {
     public static class Queue_with_linkedlist {
         public class Node {
             int val;
@@ -56,7 +56,7 @@ public class Queues {
     public static int[] a;
     public static int size;
     public static int rear = -1;
-    Queues(int s){
+    E_Queues(int s){
         a = new int[s];
         size = s;
         rear = -1;

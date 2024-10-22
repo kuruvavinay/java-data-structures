@@ -1,4 +1,4 @@
-public class Linked{
+public class B_Linked_list {
     public static class Node{
         int val;
         Node next;
@@ -270,6 +270,7 @@ public class Linked{
 
     public Node reorder(Node head){
         // leetcode 143
+//        one element from starting and one from ending and continues the series same.
         Node slow = head;
         Node fast = head.next;
         while(fast != null && fast.next != null){
@@ -302,7 +303,7 @@ public class Linked{
 
 
     public static void main(String[] args) {
-        Linked l = new Linked();
+        B_Linked_list l = new B_Linked_list();
         l.addFirst(12);
         l.addFirst(16);
         l.addFirst(19);

@@ -1,4 +1,4 @@
-public class Doublell {
+public class C_Double_Linked_List {
     public static class Node{
         Node prev;
         int val;
@@ -81,7 +81,7 @@ public class Doublell {
         head = prev;
     }
     public static void main(String[] args) {
-        Doublell d = new Doublell();
+        C_Double_Linked_List d = new C_Double_Linked_List();
         d.addFirst(1);
         d.addLast(2);
         d.addFirst(3);

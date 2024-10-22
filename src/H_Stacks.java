@@ -9,7 +9,7 @@ STACKS CAN BE CREATED IN FOUR WAYS
 3. LINKED LIST
 4. USING FRAMEWORK
 */
-public class Stacks {
+public class H_Stacks {
     public static class Stack_using_arraylist{
         public static ArrayList<Integer> list= new ArrayList<Integer>();
         public int get_size(){
